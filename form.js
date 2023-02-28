@@ -8,4 +8,9 @@ function validate(){
       alert("ENTER A VALID NAME");
       return false;
     }
+    if(password==null || password=="")
+    {
+      alert("ENTER A VALID PASSWORD");
+      return false;
+    }
     }
